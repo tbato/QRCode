@@ -69,6 +69,7 @@ public class QRCode extends javax.swing.JFrame {
         MatrixToImageWriter.writeToPath(bitMatrix, "PNG", path);
     }
     
+    //Save QRCode
     private void saveFile() throws WriterException {
         String hovaten = txtHoTen.getText().trim();
         String chucvu = txtChucVu.getText().trim();
